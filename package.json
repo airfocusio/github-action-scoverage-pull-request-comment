@@ -1,0 +1,23 @@
+{
+  "name": "github-action-scoverage-pull-request-comment",
+  "version": "0.1.0",
+  "main": "index.ts",
+  "scripts": {
+    "build": "ncc build index.ts -o dist",
+    "lint": "tsc --noEmit",
+    "start": "GITHUB_ACTION=pull_request GITHUB_REPOSITORY=airfocusio/github-action-scoverage-pull-request-comment GITHUB_BASE_REF=test GITHUB_HEAD_REF=test2 GITHUB_PULL_REQUEST_NUMBER=1 SCOVERAGE_REPORT_PATH=test/scoverage.xml ts-node index.ts",
+    "test": "GITHUB_ACTION=pull_request GITHUB_REPOSITORY=airfocusio/github-action-scoverage-pull-request-comment GITHUB_BASE_REF=test GITHUB_HEAD_REF=test2 SCOVERAGE_REPORT_PATH=test/scoverage.xml ts-node index.ts"
+  },
+  "dependencies": {
+    "@actions/core": "^1.10.0",
+    "@actions/github": "^5.1.1",
+    "@octokit/action": "^6.0.4"
+  },
+  "devDependencies": {
+    "@tsconfig/node16": "^16.1.0",
+    "@types/node": "^20.4.1",
+    "@vercel/ncc": "^0.36.1",
+    "ts-node": "^10.9.1",
+    "typescript": "^5.1.6"
+  }
+}

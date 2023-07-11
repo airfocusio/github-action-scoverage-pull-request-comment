@@ -1,0 +1,19 @@
+<scoverage
+statement-count="70686" statements-invoked="13640" statement-rate="19.30" branch-rate="5.81" version="1.0" timestamp="1689091001443">
+    <packages>
+        <package name="io.airfocus" statement-count="202" statements-invoked="123" statement-rate="60.89">
+            <classes>
+                <class
+                name="io.airfocus.Test" filename="io/airfocus/Test.scala" statement-count="100" statements-invoked="80" statement-rate="78.12" branch-rate="0.00"></class>
+                <class
+                name="io.airfocus.Test2" filename="io/airfocus/Test2.scala" statement-count="100" statements-invoked="60" statement-rate="78.12" branch-rate="0.00"></class>
+                <class
+                name="io.airfocus.Test3" filename="io/airfocus/Test3.scala" statement-count="100" statements-invoked="70" statement-rate="78.12" branch-rate="0.00"></class>
+                <class
+                name="io.airfocus.Test4" filename="io/airfocus/Test4.scala" statement-count="100" statements-invoked="10" statement-rate="78.12" branch-rate="0.00"></class>
+                <class
+                name="io.airfocus.one.two.three.four.five.six.seven.eight.nine.ten.eleven.twelve.thirteen.fourteen.fifthteen" filename="io/airfocus/first/second/third/fourth/fifth/Test5.scala" statement-count="128" statements-invoked="100" statement-rate="78.12" branch-rate="0.00"></class>
+            </classes>
+        </package>
+    </packages>
+</scoverage>
